@@ -11,6 +11,26 @@
       src="https://kit.fontawesome.com/69864d08cd.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // On peut créer une couleur personalisée
+              'orange-light': '#fca311',
+            },
+            spacing: {
+              // et des tailles personalisées
+              1: '8px',
+              2: '12px',
+              3: '16px',
+              4: '24px',
+              5: '32px',
+            },
+          },
+        },
+      }
+    </script>
   </head>
   <body class="max-w-full">
     <!-- Conteneur principal avec une taille de 90% -->
